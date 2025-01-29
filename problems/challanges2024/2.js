@@ -12,6 +12,6 @@ variable = 10;
     console.log(variable);
 })(); //iife
 
-console.log(variable);
+// console.log(variable);
 
-var variable = 30
+// var variable = 30

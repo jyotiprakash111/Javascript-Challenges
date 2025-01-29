@@ -1,6 +1,6 @@
-myFun();
+myFun1();
 
-var myFun = function(){
+var myFun1 = function(){
     console.log("first")
 }
 

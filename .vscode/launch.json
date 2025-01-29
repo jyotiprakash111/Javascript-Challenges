@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
             "name": "Launch Chrome",
             "request": "launch",
             "type": "chrome",
@@ -58,6 +65,16 @@
             "program": "${workspaceFolder}/problems/challanges2024/1.js",
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
+            ]
+        },
+        {
+            "name": "Run Current File",
+            "type": "node",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}",
+            "skipFiles": [
+                "<node_internals>/**"
             ]
         }
     ]

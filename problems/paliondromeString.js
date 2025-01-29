@@ -4,6 +4,9 @@ function isPalindrome(str) {
   }
   
   // Example usage:
-  console.log(isPalindrome("racecar")); // Output: true
-  console.log(isPalindrome("hello")); // Output: false
+  console.log(isPalindrome("racecar")); 
+  console.log(isPalindrome("hello")); 
+
+  // Output: true
+  // Output: false
   
