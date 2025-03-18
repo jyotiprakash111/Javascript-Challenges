@@ -9,7 +9,7 @@ function isAnagram(str1, str2) {
 
 console.log(isAnagram("listen", "silent"));  // true
 console.log(isAnagram("hello", "world"));    // false
-
+    
 
 // 2. Find All Anagrams of a Word in an Array
 // Problem: Given a list of words, return all words that are anagrams of a given word.
